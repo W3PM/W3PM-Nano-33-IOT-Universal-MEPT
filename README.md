@@ -6,21 +6,21 @@ The GitHub files contain archival information about a circuit board developed by
 (Figure 3 of the .pdf). At this point in time he is unable to provide any populated or un-populated boards. 
 He may be contacted at “doug at k4cle dot com” for any questions concerning the board.
 
-The unit draws little power and can be powered by a USB cable connected to a computer, a USB charger, 
-or by some 5V USB battery backup chargers. Alternately, you can use a 7-21VDC source connected to the 
-Arduino Nano 33 IOT’s “VIN” pin. The 3.3 volt output pin “3V3” is capable of supplying 600 mA which 
-easily powers all of the peripheral boards.
-
-The Nano 33 IOT features WiFi connectivity, 448 KB of ROM, 520KB SRAM , 2MB Flash and a SAMD21
-Cortex®-M0+ 32bit low power ARM MCU running at 48 MHz. This allows far more project flexibility to
-develop a multifaceted MEPT project.
-
-This project is based individual circuit cards as shown in Figure 1 of the .pdf. The building blocks 
+The project is based individual circuit cards as shown in Figure 1 of the .pdf. The building blocks 
 for this project consist of an Arduino Nano 33 IOT microcontroller, a Si5351A clock generator breakout 
 board, DS3231 real time clock (RTC) board , GPS receiver, and a 0.96 inch 128x64 serial I2C OLED display 
 board. The Si535a, DS3231, and OLED boards communicate with the Nano 33 IOT microcontroller over an I2C 
 bus using only three wires. The boards were chosen because they are highly capable, inexpensive, well 
 documented, and available over the internet from a wide variety of vendors.
+
+The Nano 33 IOT features WiFi connectivity, 448 KB of ROM, 520KB SRAM , 2MB Flash and a SAMD21
+Cortex®-M0+ 32bit low power ARM MCU running at 48 MHz. This allows far more project flexibility to
+develop a multifaceted MEPT project.
+
+The unit draws little power and can be powered by a USB cable connected to a computer, a USB charger, 
+or by some 5V USB battery backup chargers. Alternately, you can use a 7-21VDC source connected to the 
+Arduino Nano 33 IOT’s “VIN” pin. The 3.3 volt output pin “3V3” is capable of supplying 600 mA which 
+easily powers all of the peripheral boards.
 
 This project relies heavily on timer accuracy derived from the Nano 33 IOT 48 MHz clock. Unfortunately, the
 board is not crystal controlled and relies on an LC oscillator. To overcome this shortcoming a correction factor
