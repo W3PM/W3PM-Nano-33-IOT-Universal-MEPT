@@ -1,4 +1,4 @@
-# W3PM-Nano 33 IOT Universal-MEPT
+# W3PM Nano 33 IOT Universal MEPT
 Modes: WSPR , FST4W, FT8, CW, QRSS  
 Timing: WiFi, GPS, RTC
 
