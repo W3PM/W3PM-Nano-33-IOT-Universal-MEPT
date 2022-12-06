@@ -2,6 +2,10 @@
 Modes: WSPR , FST4W, FT8, CW, QRSS  
 Timing: WiFi, GPS, RTC
 
+The GitHub files contain archival information about a circuit board developed by Doug, K4CLE 
+(Figure 3 of the .pdf). At this point in time he is unable to provide any populated or un-populated boards. 
+He may be contacted at “doug at k4cle dot com” for any questions concerning the board.
+
 The unit draws little power and can be powered by a USB cable connected to a computer, a USB charger, 
 or by some 5V USB battery backup chargers. Alternately, you can use a 7-21VDC source connected to the 
 Arduino Nano 33 IOT’s “VIN” pin. The 3.3 volt output pin “3V3” is capable of supplying 600 mA which 
@@ -17,10 +21,6 @@ board, DS3231 real time clock (RTC) board , GPS receiver, and a 0.96 inch 128x64
 board. The Si535a, DS3231, and OLED boards communicate with the Nano 33 IOT microcontroller over an I2C 
 bus using only three wires. The boards were chosen because they are highly capable, inexpensive, well 
 documented, and available over the internet from a wide variety of vendors.
-
-The GitHub files contain archival information about a circuit board developed by Doug, K4CLE 
-(Figure 3 of the .pdf). At this point in time he is unable to provide any populated or un-populated boards. 
-He may be contacted at “doug at k4cle dot com” for any questions concerning the board.
 
 This project relies heavily on timer accuracy derived from the Nano 33 IOT 48 MHz clock. Unfortunately, the
 board is not crystal controlled and relies on an LC oscillator. To overcome this shortcoming a correction factor
