@@ -2,6 +2,9 @@
 Modes: WSPR , FST4W, FT8, CW, QRSS  
 Timing: WiFi, GPS, RTC
 
+Note: Although the FST4W and FT8 modes are included in this sketch, they are not optimal. FT8 and FST4W uses
+gausian pulse width shaping which will be included in a forthcoming version of the sketch.
+
 The GitHub files contain archival information about a circuit board developed by Doug, K4CLE 
 (Figure 3 of the .pdf). At this point in time he is unable to provide any populated or un-populated boards. 
 He may be contacted at “doug at k4cle dot com” for any questions concerning the board.
