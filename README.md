@@ -2,8 +2,17 @@
 Modes: WSPR , FST4W, FT8, CW, QRSS  
 Timing: WiFi, GPS, RTC
 
-Note: Although the FST4W and FT8 modes are included in this sketch, they are not optimal. FT8 and FST4W uses
-gausian pulse width shaping which will be included in a forthcoming version of the sketch.
+(Version 2 now uses Gaussian pulse width shaping)
+________________________________________________________________________________________
+
+   Important Note:
+   The Nano 33 IOT uses an LC circuit for a clock which adversely affects system timing. 
+   The LC clock uncertainty is minimized by sketch calibration alorithms, however, the 
+   FST4W modes will experience sub-optimal performanace. it is highly suggested that the 
+   Nano 33 IOT is modified to use a crystal clock for FST4W operation. 
+
+ _______________________________________________________________________________________  
+*/
 
 The GitHub files contain archival information about a circuit board developed by Doug, K4CLE 
 (Figure 3 of the .pdf). At this point in time he is unable to provide any populated or un-populated boards. 
