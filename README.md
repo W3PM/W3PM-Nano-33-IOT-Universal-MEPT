@@ -2,7 +2,7 @@
 Modes: WSPR , FST4W, FT8, CW, QRSS  
 Timing: WiFi, GPS, RTC
 
-(Version 2 now uses Gaussian pulse width shaping)
+(Version 2 now uses Gaussian pulse width shaping for FT8 and FST4W)
 ________________________________________________________________________________________
 
    Important Note:
