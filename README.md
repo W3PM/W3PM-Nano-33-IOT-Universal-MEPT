@@ -2,7 +2,7 @@
 Modes: WSPR , FST4W, FT8, CW, QRSS  
 Timing: WiFi, GPS, RTC
 
-(Version 2 now uses Gaussian pulse width shaping and calibrated symbol timing for FT8 and FST4W. 
+(Updated to use Gaussian pulse width shaping and calibrated symbol timing for FT8 and FST4W. 
 The FST4W modes require high frequency stability, especially when using the slower modes above 630m.
 GPSDO transmit stability is recommended for FST4W HF operation)
 
